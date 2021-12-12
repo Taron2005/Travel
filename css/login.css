@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+.text{
+    margin-left: 46%;
+    font-size: 30px;
+}
+.login{
+    width: 500px;
+    height: 400px;
+    box-shadow: 0 0 10px grey;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+h3{
+    font-weight: bold;
+    font-size: 30px;
+}
+input[type="email"]{
+    width: 90%;
+    height: 50px;
+    margin-top: 20px;
+    border: 1px solid;
+    padding-left: 10px;
+}
+input[type="password"]{
+    width: 90%;
+    height: 50px;
+    margin-top: 20px;
+    border: 1px solid;
+    padding-left: 10px;
+}
+button{
+    width: 90%;
+    height: 50px;
+    margin-top: 20px;
+    background-color: orange;
+    border-radius: 5px;
+    border: 2px double orange;
+    color: white;
+}
+button:hover{
+    background-color: rgb(255, 170, 0, .5);
+    color: orange;
+}
+.regm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.regc{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    
+}
+label{
+    margin-top: 20px;
+    font-weight: 500;
+}
+label input{
+    margin-right: 3px;
+}
+.fpas{
+    margin-top: 10px;
+    display: flex;
+}
+p{
+    color: grey;
+}
+a{
+    color: orange;
+    margin-left: 5px;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
